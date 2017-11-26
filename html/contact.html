@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../icons/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="shortcut icon" href="../img/logo-footer.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css" />
+    <title>Contact</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+        <a class="navbar-brand" href="../index.html"><img src="../img/logo-footer.png" style="width: 40px"/></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="realisation.html">Réalisation <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="cv.html">Mon CV</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <h1>Contact</h1>
+    <div class="corps">
+        <div class="ul-contact">
+            <ul>
+                <li><i class="fa fa-map-marker" aria-hidden="true"></i>52 av. Claude de la Colombière</li>
+                <li><i class="fa fa-map-marker" aria-hidden="true" style="color: #f8f7f3"></i>69360 Saint Symphorien d’Ozon</li>
+                <li><i class="fa fa-phone" aria-hidden="true"></i>06 45 47 07 00</li>
+                <li><i class="fa fa-envelope" aria-hidden="true"></i>venet.julien@gmail.com</li>
+                <li><a href="https://www.linkedin.com/in/julien-venet-43a366101/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i>/julien-venet-43a366101</a></li>
+            </ul>
+        </div>
+        <form class="container" id="contact" method="post" action="traitement_formulaire.php">
+            <fieldset>
+                <legend>Vos coordonnées</legend>
+                <p><label for="nom">Nom :</label><input type="text" id="nom" name="nom" tabindex="1" /></p>
+                <p><label for="email">Email :</label><input type="text" id="email" name="email" tabindex="2" /></p>
+            </fieldset>
+            <fieldset>
+                <legend>Votre message :</legend>
+                <p><label for="objet">Objet :</label><input type="text" id="objet" name="objet" tabindex="3" /></p>
+                <p><label for="message">Message :</label><textarea id="message" name="message" tabindex="4" cols="30" rows="8"></textarea></p>
+            </fieldset>
+            <div style="text-align:center;"><input class="btn btn-primary contact-btn" type="submit" name="envoi" value="Envoyer le formulaire !" /></div>
+        </form>
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    </div>
+</body>
+
+</html>
